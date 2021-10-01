@@ -3,249 +3,231 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>ABC</title>
+  <meta name="viewport" content="width=device-width , initial-scale-1.0">
+  <title>Myntra</title>
   <link rel="stylesheet" href="styles.css">
-  <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+  
 </head>
 
 <body>
-  <section id="header">
+  <section class="header">
+    <nav class="navbar navbar-expand-lg navbar-light ">
+      <a class="navbar-brand" href="#"><img src="images/fashion-logo.jpg" alt="fashion-logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">POLICY</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">CONDITION</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#footer">DOWNLOAD</a>
+          </li>
+        </ul>
+        <ul class="right-menu  ms-auto">
+          <li><i class="fab fa-facebook-f"></i></li>
+          <li><i class="fab fa-instagram"></i></li>
+          <li><i class="fab fa-pinterest-p"></i></li>
+          <li>
+            <div class="input-group mb-3">
+              <input type="text" class="form-control" placeholder="SEARCH" aria-label="Recipient's username" aria-describedby="basic-addon2">
+              <span class="input-group-text"><i class="fas fa-search"></i></span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="banner">
+      <div class="banner-img">
+        <img src="images/banner.jpg" alt="banner">
+      </div>
+      <div class="banner-title">
+        <h1>FASHION STORY</h1>
+        <h1>WOMEN'S LIFESTYLE</h1>
+      </div>
+    </div>
+  </section>
+
+  <!-- fashion trends -->
+  <section class="fashion-trends">
     <div class="container">
-      <img src="images/logo.png" alt="logo" class="logo">
-      <div class="header-text">
-
-        <h1>The purpose is to <br>teach,bring learning to people.</h1>
-        <span class="square"></span>
-        <p> Integer dignissim cursus nibh ac lacinia. Curabitur hendrerit eros non eleifend laoreet. Praesent pretium nulla vel purus mollis posuere. Integer eget purus pulvinar metus tristique sagittis. Suspendisse potenti. In hac habitasse platea
-          dictumst. </p>
-        <button class="common-btn">Read More</button>
-        <div class="line">
-          <span class="line-1"></span><br>
-          <span class="line-2"></span><br>
-          <span class="line-3"></span>
+      <div class="fashion-box">
+        <div class="title-style text-center">
+          <h1>FASHION TRENDS</h1>
         </div>
-
+        <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur porta felis ac leo pretium, ac aliquet felis ornare. Fusce fermentum dolor sed dui eleifend pellentesque. Nulla porta tincidunt maximus. Vestibulum eget
+          nisl nec leo tincidunt venenatis id sed nulla. In hac habitasse platea dictumst. Sed aliquam metus augue, ultrices blandit est feugiat a. Curabitur id euismod velit. Fusce sed quam tempor, gravida diam a, suscipit odio. Lorem ipsum dolor
+          sit amet, consectetur adipiscing elit.</p>
       </div>
-    </div>
-
-  </section>
-
-  <nav id="sideNav">
-    <ul>
-      <li><a href="#header">HOME</a></li>
-      <li><a href="#about">ABOUT</a></li>
-      <li><a href="#features">FEATURES</a></li>
-      <li><a href="#courses">COURSES</a></li>
-      <li><a href="#offer">OFFERS</a></li>
-      <li><a href="#contact">CONTACT</a></li>
-    </ul>
-  </nav>
-  <img src="images/menu.png" alt="menu" id="menuBtn">
-
-  <!-- about -->
-  <section id="about">
-    <div class="about-left-col">
-      <img src="images/about.png" alt="about">
-
-    </div>
-    <div class="about-right-col">
-      <div class="about-text">
-        <h1>About Us</h1>
-        <span class="square"></span>
-        <p> Integer dignissim cursus nibh ac lacinia. Curabitur hendrerit eros non eleifend laoreet. Praesent pretium nulla vel purus mollis posuere. Integer eget purus pulvinar metus tristique sagittis. Suspendisse potenti. In hac habitasse platea
-          dictumst. </p><br><br>
-        <div class="line">
-          <span class="line-1"></span><br>
-          <span class="line-2"></span><br>
-          <span class="line-3"></span>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="trending-img">
+            <img src="images/trend-1.jpg" alt="">
+            <button type="button" class="btn-buy">Buy Now</button>
+            <div class="overlay">
+            </div>
+          </div>
         </div>
-        <h2>"Learning is not attained by chance, it must be sought for with ardor and attended to with diligence"</h2>
-        <h3>....Abigali Adams</h3>
-      </div>
-    </div>
-  </section>
-
-
-  <!-- features -->
-
-  <section id="features">
-    <div class="feature-row">
-      <div class="feature-col">
-        <img src="images/pic-1.png" alt="pic">
-        <h4>Learn Anywhere</h4>
-        <p>Switch between your computer, tab and mobile device.</p>
-      </div>
-      <div class="feature-col">
-        <img src="images/pic-2.png" alt="pic">
-        <h4>Expert Teachers</h4>
-        <p>Learn from industry experts who are passionate about teaching.</p>
-      </div>
-      <div class="feature-col">
-        <img src="images/pic-3.png" alt="pic">
-        <h4>Unlimited Access</h4>
-        <p>Choose what you'd like to learn from our extensive subscription library.</p>
-      </div>
-    </div>
-    <div class="feature-btn">
-      <div class="line">
-        <span class="line-1"></span><br>
-        <span class="line-2"></span><br>
-        <span class="line-3"></span>
-      </div>
-      <button class="common-btn">Start Free Trial</button>
-    </div>
-  </section>
-
-  <!-- courses -->
-  <section id="courses">
-    <div class="container course-row">
-      <div class="course-left-col">
-        <div class="course-text">
-          <h1>Browse our top <br>courses</h1>
-          <span class="square"></span>
-          <p> Integer dignissim cursus nibh ac lacinia. Curabitur hendrerit eros non eleifend laoreet. Praesent pretium nulla vel purus mollis posuere. Integer eget purus pulvinar metus tristique sagittis. Suspendisse potenti. In hac habitasse platea
-            dictumst. </p>
-          <button class="common-btn">View All Courses</button>
-          <div class="line">
-            <span class="line-1"></span><br>
-            <span class="line-2"></span><br>
-            <span class="line-3"></span>
+        <div class="col-md-4">
+          <div class="trending-img">
+            <img src="images/trend-2.jpg" alt="">
+            <button type="button" class="btn-buy">Buy Now</button>
+            <div class="overlay">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="trending-img">
+            <img src="images/trend-3.jpg" alt="">
+            <button type="button" class="btn-buy">Buy Now</button>
+            <div class="overlay">
+            </div>
           </div>
         </div>
       </div>
-      <div class="course-right-col">
-        <img src="images/course.png" alt="">
-      </div>
 
     </div>
-
   </section>
+
   <!-- offer -->
-  <section id="offer">
-    <div class="about-left-col">
-      <img src="images/offer.png" alt="about">
-
-    </div>
-    <div class="about-right-col">
-      <div class="about-text">
-        <h1>Limitless learning, <br>Limitless possibilities.</h1>
-        <span class="square"></span>
-        <p> Integer dignissim cursus nibh ac lacinia. Curabitur hendrerit eros non eleifend laoreet. Praesent pretium nulla vel purus mollis posuere. Integer eget purus pulvinar metus tristique sagittis. Suspendisse potenti. In hac habitasse platea
-          dictumst. </p>
-        <button class="common-btn">Start Free Trial</button>
-        <div class="line">
-          <span class="line-1"></span><br>
-          <span class="line-2"></span><br>
-          <span class="line-3"></span>
+  <section class="offer">
+    <div class="row">
+      <div class="col-md-6 text-center">
+        <img src="images/exclusive.jpeg" alt="">
+      </div>
+      <div class="col-md-6">
+        <div class="subscribe">
+          <h4>FUNSHION EXCLUSIVE</h4>
+          <p>Lorem ipsum dolor sit amet,ulla. In hac habitasse platea dictumst. Sed aliquam metus augue, ultrices blandit est feugiat a. Curabitur id euismod velit. Fusce sed quam tempor, gravida diam a, suscipit odio.
+            sit .</p>
+          <a href="#">Subscribe</a>
         </div>
-        <h2>"Learning is not attained by chance, it must be sought for with ardor and attended to with diligence"</h2>
-        <h3>....Abigali Adams</h3>
       </div>
     </div>
   </section>
 
-  <!-- contact -->
-
-  <section id="contact">
-    <div class="container contact-row">
-      <div class="contact-left-col">
-        <h1>Sign Up to join our <br>learning community </h1>
-        <form>
-          <input type="text" placeholder="Enter Name">
-          <input type="email" placeholder="Enter Email">
-          <input type="password" placeholder="Enter Password">
-          <div class="btn-box">
-            <button class="common-btn">Sign Up</button>
-            <button class="common-btn">Start Free Trial</button>
+  <!-- latest blog -->
+  <section class="fashion-blog">
+    <div class="title-style text-center">
+      <h1>LATEST FASHION BLOG</h1>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 text-center">
+          <div class="blog-img">
+            <img src="images/blog-1.jpg" alt="">
           </div>
-        </form>
-        <div class="line">
-          <span class="line-1"></span><br>
-          <span class="line-2"></span><br>
-          <span class="line-3"></span>
+          <h5>New Styles 50% off</h5>
+        </div>
+        <div class="col-md-4 text-center">
+          <div class="blog-img">
+            <img src="images/blog-2.jpg" alt="">
+          </div>
+          <h5>Buy 1 Get 1 free</h5>
+        </div>
+        <div class="col-md-4 text-center">
+          <div class="blog-img">
+            <img src="images/blog-3.jpg" alt="">
+          </div>
+          <h5>New Jewellary Collection</h5>
         </div>
       </div>
-      <div class="contact-right-col">
-        <img src="images/contact.png" alt="">
-      </div>
-
     </div>
+  </section>
 
+  <!-- fashion brands -->
+  <section class="fashion-brands">
+    <div class="title-style text-center">
+      <h1>OUR FASHION BRANDS</h1>
+    </div>
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-3">
+          <div class="brand-logo">
+            <img src="images/brand1.png" alt="">
+          </div>
+          <p>EXCLUSIVE OFFERS</p>
+        </div>
+        <div class="col-md-3">
+          <div class="brand-logo">
+            <img src="images/brand2.png" alt="">
+          </div>
+          <p>MIN. 40% OFF</p>
+        </div>
+        <div class="col-md-3">
+          <div class="brand-logo">
+            <img src="images/brand3.png" alt="">
+          </div>
+          <p>FREE DELIVERY</p>
+        </div>
+        <div class="col-md-3">
+          <div class="brand-logo">
+            <img src="images/brand4.png" alt="">
+          </div>
+          <p>UP TO 50% OFF</p>
+        </div>
+      </div>
+    </div>
   </section>
 
   <!-- footer -->
-  <section id="footer">
-    <div class="container footer-row">
-      <hr>
-      <div class="footer-left-col">
-        <div class="footer-links">
-          <div class="link-title">
-            <h4>Product</h4>
-            <small>Our Plan</small><br>
-            <small>Free Trial</small>
+  <section class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="payment">
+            <h5>PAYMENT GATEWAY</h5>
+            <img src="images/payment.png" alt="">
           </div>
-          <div class="link-title">
-            <h4>About Us</h4>
-            <small>Request Demo</small><br>
-            <small>FAQs</small>
+        </div>
+        <div class="col-md-4">
+          <div class="insta-img">
+            <h5>INSTAGRAM PICS</h5>
+            <img src="images/insta1.jpg" alt="">
+            <img src="images/insta2.jpg" alt="">
+            <img src="images/insta3.jpg" alt="">
+            <img src="images/insta4.jpg" alt="">
+            <img src="images/insta5.jpg" alt="">
+            <img src="images/insta6.jpg" alt="">
+            <img src="images/insta7.jpg" alt="">
+            <img src="images/insta8.jpg" alt="">
           </div>
-          <div class="link-title">
-            <h4>Support</h4>
-            <small>Features</small><br>
-            <small>Contact Us</small>
-          </div>
-          <div class="link-title">
-            <h4>Explore</h4>
-            <small>Find a nonprofit</small><br>
-            <small>Corporate Solution</small>
+        </div>
+        <div class="col-md-4">
+          <div class="app-download">
+            <h5>DOWNLOAD MOBILE APP</h5>
+            <img src="images/play-store.png" alt="">
+            <img src="images/app-store.png" alt="">
           </div>
         </div>
       </div>
-      <div class="footer-right-col">
-        <div class="footer-info">
-          <div class="copyright-text">
-            <small>support@Xypo.com</small>
-            <small>copyright 2020 Xypo</small>
-          </div>
-          <div class="footer-logo">
-            <img src="images/logo.png" alt="logo">
-            <button class="common-btn">English</button>
-          </div>
+      <hr>
+      <div class="row">
+        <div class="col-md-8">
+          <p class="copyright">Designed with <i class="fas fa-heart"></i> by Shivangi</p>
+        </div>
+        <div class="col-md-4">
+          <div class="footer-icons">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-youtube"></i>
+            <i class="fab fa-linkedin-in"></i>
 
+          </div>
         </div>
       </div>
     </div>
-
   </section>
-
-<!-- social-icons -->
-
-<div class="social-icons">
-  <img src="images/facebook.png" alt="">
-  <img src="images/instagram.png" alt="">
-  <img src="images/twitter.png" alt="">
-  <img src="images/linkedin.png" alt="">
-</div>
-
-
-  <script>
-    var menuBtn = document.getElementById("menuBtn");
-    var sideNav = document.getElementById("sideNav");
-    sideNav.style.right = "-250px";
-    menuBtn.onclick = function() {
-      if (sideNav.style.right == "-250px") {
-        sideNav.style.right = "0";
-      } else {
-        sideNav.style.right = "-250px";
-      }
-    }
-
-    var scroll = new SmoothScroll('a[href*="#"]',{
-      speed: 1000,
-    	speedAsDuration: true
-    });
-  </script>
 </body>
 
 </html>
